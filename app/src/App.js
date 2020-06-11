@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
 
+import CatImage from "./components/CatImage.js";
+
 function App() {
   return (
-    <div className="App">
-      <h2>AMIIBO</h2>
+    <div className="App container">
+      <CatImage />
     </div>
   );
 }
