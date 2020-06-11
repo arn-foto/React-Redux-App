@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { getCatImage } from "../actions";
 
 const CatImage = (props) => {
-  // console.log("meow", props);
+  //console.log("meow", props);
 
   useEffect(() => {
     props.getCatImage();
